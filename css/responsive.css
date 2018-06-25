@@ -1,0 +1,286 @@
+    body{
+        display: flex;
+        height: 100%;
+        margin: 0px auto;
+        width: 68%;
+    }
+
+    h1,h2{
+        margin-bottom:0px;
+    }
+
+    .imac{
+        float: left;
+        padding-top: 30px;
+    }
+
+    .imac_pic{
+        height: 50px;
+        width: 50px;
+    }
+
+    h3,p{
+        margin:0px;
+    }
+    
+    .main_content{
+        flex-grow: 8;
+        max-width: calc(100%-150px);
+        display: flex;
+        display: -webkit-flex;
+        flex-direction: row;
+        -webkit-flex-direction: row;
+        -webkit-align-content: stretch;
+        align-content: stretch;
+        flex-direction: column;
+        padding-right: 50px;
+    }
+    
+    .title{
+        text-align: right;
+    }
+
+    hr{
+        height:3px;
+        border:none;
+        border-top:3px solid darkgray;
+        margin-bottom: 10px;
+    }
+
+    .center .pic{
+        width: 100%;
+    }
+    
+    .center .pic{
+        display: inline-block;
+        width: 100%;
+        height: auto;
+        overflow-y: hidden;
+    }
+
+    .socal_network{
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 20px;
+    }
+    
+    .socal_network .item{
+        flex-grow: 1;
+        text-align: center;
+        margin-right: 15px;
+        padding-top: 5px;
+    }
+
+    .socal_network .item:nth-child(3){
+        margin-right: 0px;
+    }
+    
+    .contact_img{
+        display: inline-block;
+        height: auto;
+        width: 100%;
+        max-width: 100%;
+        min-width: 80px;
+        min-height:80px;
+        max-height: 100px;
+    }
+
+    .contact_way{
+        font-size: 25px;
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+
+    a{
+        word-wrap: break-word; 
+        word-break: normal; 
+        word-break:break-all;;
+    }
+       
+
+@media (max-width: 768px) { 
+    body{
+        display: flex;
+        height: 100%;
+        margin: 0px auto;
+        width: 100%;
+    }
+    
+    h1,h2{
+        margin-bottom:0px;
+    }
+
+    h3,p{
+        margin:0px;
+    }
+
+    .imac{
+        float: left;
+        padding-top: 30px;
+    }
+
+    .imac_pic{
+        height: 50px;
+        width: 50px;
+    }
+    
+    .main_content{
+        flex-grow: 8;
+        max-width: calc(100%-150px);
+        display: flex;
+        display: -webkit-flex;
+        flex-direction: row;
+        -webkit-flex-direction: row;
+        -webkit-align-content: stretch;
+        align-content: stretch;
+        flex-direction: column;
+        padding-right: 50px;
+    }
+    
+    .title{
+        text-align: right;
+    }
+
+    hr{
+        height:3px;
+        border:none;
+        border-top:3px solid darkgray;
+        margin-bottom: 10px;
+    }
+
+    .center .pic{
+        width: 100%;
+    }
+    
+    .center .pic{
+        display: inline-block;
+        width: 100%;
+        max-height: 360px;
+        height: auto;
+        overflow-y: hidden;
+    }
+
+    .socal_network{
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 20px;
+    }
+    
+    .socal_network .item{
+        flex-grow: 1;
+        text-align: center;
+        margin-right: 15px;
+        padding-top: 5px;
+    }
+
+    .socal_network .item:nth-child(3){
+        margin-right: 0px;
+    }
+    
+    .contact_img{
+        display: inline-block;
+        height: auto;
+        width: 100%;
+        max-width: 100%;
+        min-width: 80px;
+        min-height:80px;
+        max-height: 100px;
+    }
+
+    .contact_way{
+        font-size: 25px;
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+
+    a{
+        word-wrap: break-word; 
+        word-break: normal; 
+        word-break:break-all;;
+    }
+}        
+
+@media (max-width: 412px) { 
+    body{
+        display: block;
+        height: 100%;
+        margin: 0px auto;
+    }
+
+    .imac{
+        float: left;
+        padding-top: 30px;
+    }
+
+    .imac_pic{
+        height: 50px;
+        width: 50px;
+    }
+    .main_content{
+        flex-grow: 8;
+        display: flex;
+        display: -webkit-flex;
+        flex-direction: row;
+        -webkit-flex-direction: row;
+        -webkit-align-content: stretch;
+        align-content: stretch;
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .title{
+        text-align: right;
+    }
+
+    hr{
+        height:3px;
+        border:none;
+        border-top:3px solid darkgray;
+        margin-bottom: 20px;
+    }
+
+    .center .pic{
+        width: 100%;
+    }
+    
+    .center .pic{
+        display: inline-block;
+        height: auto;
+        width: 100%;
+    }
+
+    .socal_network{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+    
+    .socal_network .item{
+        flex-grow: 1;
+        vertical-align: center;
+        padding-bottom: 10px;
+        margin-right: 0px;
+    }
+    
+    .contact_img{
+        display: block;
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+        min-width: 100px;
+        min-height:100px;
+        max-height: 100px;
+        float: left;
+    }
+
+    .contact_way{
+        padding-top: 10px;
+    }
+
+    a{
+        word-wrap: break-word; 
+        word-break: normal; 
+        word-break:break-all;;
+    }
+}
